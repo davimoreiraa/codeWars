@@ -1,126 +1,166 @@
 const alphabet = [
   {
-    letter: 'A',
+    character: 'A',
     morse: '.-'
   },
   {
-    letter: 'B',
+    character: 'B',
     morse: '-...'
   },
   {
-    letter: 'C',
+    character: 'C',
     morse: '-.-.'
   },
   {
-    letter: 'D',
+    character: 'D',
     morse: '-..'
   },
   {
-    letter: 'E',
+    character: 'E',
     morse: '.'
   },
   {
-    letter: 'F',
+    character: 'F',
     morse: '..-.'
   },
   {
-    letter: 'G',
+    character: 'G',
     morse: '--.'
   },
   {
-    letter: 'H',
+    character: 'H',
     morse: '....'
   },
   {
-    letter: 'I',
+    character: 'I',
     morse: '..'
   },
   {
-    letter: 'J',
+    character: 'J',
     morse: '.---'
   },
   {
-    letter: 'K',
+    character: 'K',
     morse: '-.-'
   },
   {
-    letter: 'L',
+    character: 'L',
     morse: '.-..'
   },
   {
-    letter: 'M',
+    character: 'M',
     morse: '--'
   },
   {
-    letter: 'N',
+    character: 'N',
     morse: '-.'
   },
   {
-    letter: 'O',
+    character: 'O',
     morse: '---'
   },
   {
-    letter: 'P',
+    character: 'P',
     morse: '.--.'
   },
   {
-    letter: 'Q',
+    character: 'Q',
     morse: '--.-'
   },
   {
-    letter: 'R',
+    character: 'R',
     morse: '.-.'
   },
   {
-    letter: 'S',
+    character: 'S',
     morse: '...'
   },
   {
-    letter: 'T',
+    character: 'T',
     morse: '-'
   },
   {
-    letter: 'U',
+    character: 'U',
     morse: '..-'
   },
   {
-    letter: 'V',
+    character: 'V',
     morse: '...-'
   },
   {
-    letter: 'W',
+    character: 'W',
     morse: '.--'
   },
   {
-    letter: 'X',
+    character: 'X',
     morse: '-..-'
   },
   {
-    letter: 'Y',
+    character: 'Y',
     morse: '-.--'
   },
   {
-    letter: 'Z',
+    character: 'Z',
     morse: '--..'
+  },
+  {
+    character: '.',
+    morse: '.-.-.-'
+  },
+  {
+    character: ',',
+    morse: '--..--'
+  },
+  {
+    character: '?',
+    morse: '..--..'
+  },
+  {
+    character: '!',
+    morse: '-.-.--'
+  },
+  {
+    character: '´',
+    morse: '.----.'
+  },
+  {
+    character: '/',
+    morse: '-..-.'
+  },
+  {
+    character: '(',
+    morse: '-.--.'
+  },
+  {
+    character: ')',
+    morse: '-.--.-'
+  },
+  {
+    character: 'SOS',
+    morse: '...---...'
   }
 ]
 
 decodeMorse = function (morseCode) {
   const words = morseCode.split('   ')
   const phrase = words.map(word => word.split(' '))
+  let message = []
   for (i in phrase) {
-    console.log(phrase[i].map(transformMorseIntoLetters))
+    message.push(phrase[i].map(transformMorseIntoCharacter).join(''))
   }
+  return message.join(' ').trim()
 }
+//funçao .trim() remove os espaços do incio e fim de uma string
 
-function transformMorseIntoLetters(letter) {
-  let Alphabetletter
+function transformMorseIntoCharacter(character) {
+  let AlphabetCharacter
   for (i in alphabet) {
-    if (alphabet[i].morse == letter) {
-      Alphabetletter = alphabet[i].letter
+    if (alphabet[i].morse == character) {
+      AlphabetCharacter = alphabet[i].character
     }
   }
-  return Alphabetletter
+  return AlphabetCharacter
 }
 
-decodeMorse('.... . -.--   .--- ..- -.. .')
+console.log(decodeMorse('--- ..   -.. .- ...- ..'))
+//Como enviar um texto em morse: mantenha um espaço entre cada letra de uma palavra, e tres espaços entre cada palavra
