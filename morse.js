@@ -163,4 +163,3 @@ function transformMorseIntoCharacter(character) {
 }
 
 console.log(decodeMorse('--- ..   -.. .- ...- ..'))
-//Como enviar um texto em morse: mantenha um espaço entre cada letra de uma palavra, e tres espaços entre cada palavra
