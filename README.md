@@ -17,13 +17,15 @@ cd morse-decoder
 <h2>Como usar:</h2>
 <p>Para traduzir um texto morse, basta chamar a função decodeMorse() passando seu código em morse como parâmetro. Para fazer um teste, basta imprimir no console o chamado da função.
 <br>
-Ao passar o código morse, é preciso se atantar a algumas regras, cada letra do texto é separada por um espaço, e cada palavra é separada por três espaços.
+Ao passar o código morse, é preciso se atantar a algumas regras: cada letra do texto é separada por um espaço, e cada palavra é separada por três espaços.
 </p>
 <h3>Exemplo:</h3>
 
 ```bash
 console.log(decodeMorse('--- ..   -.. .- ...- ..'))
-// OLA DAVI
-
-cntrol + alt + k
+// OI DAVI
 ```
+
+<hr>
+<h2>Tabela código morse</h2>
+<img width='70%' src='morse-chart.jpg'/>
