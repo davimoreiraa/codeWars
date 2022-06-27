@@ -29,3 +29,8 @@ console.log(decodeMorse('--- ..   -.. .- ...- ..'))
 <hr>
 <h2>Tabela código morse</h2>
 <img width='70%' src='morse-chart.jpg'/>
+<footer>
+  <p style='font-size:17px'>🍊 Made by Davi Moreira | See my 
+    <a href="https://www.linkedin.com/in/davi-moreira-dos-santos-804280203/">LinkedIn</a>
+  </p>
+</footer>
