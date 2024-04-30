@@ -1,5 +1,5 @@
 <h1>Desafios CodeWars</h1>
-<p>O CodeWars <a href='https://www.codewars.com/dashboard'>Codewars</a> é uma plataforma que fornece problemas, dos quais você precisa resolve-los com código. Esse repositório reúne alguns dos meus códigos que fiz enquanto explorava o site.
+<p>O <a href='https://www.codewars.com/dashboard'>Codewars</a> é uma plataforma que fornece problemas, dos quais você precisa resolve-los com código. Esse repositório reúne alguns dos meus códigos que fiz enquanto explorava o site.
 <br>
 <h2>Decodificador de código morse</h2>
 <h3>Descrição 📜</h3>
