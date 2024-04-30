@@ -23,7 +23,7 @@ console.log(decodeMorse('--- ..   -.. .- ...- ..'))
 <hr>
 <h2>Testes matemáticos</h2>
 <h3>Descrição 📜</h3>
-<p>Diz se um determinado número é primo, par e/ou múltiplo de 10. <a href='https://www.codewars.com/kata/5507309481b8bd3b7e001638/'>Link do desafio no codeWars</a> </p>.
+<p>Diz se um determinado número é primo, par e/ou múltiplo de 10. <a href='https://www.codewars.com/kata/5507309481b8bd3b7e001638/'>Link do desafio no codeWars</a> </p>
 <hr>
 <h2>Baixando o repositório:</h2>
 <p>Por ser apenas um arquivo e de poucas linhas, você pode optar por copiar e colar, caso o contrário, também pode baixar na sua máquina com o uso da ferramenta <a href='https://git-scm.com/'>Git</a>. Recomenda-se o uso de um editor de código como o <a href='https://code.visualstudio.com/'>Vscode</a>.</p>
@@ -33,7 +33,7 @@ console.log(decodeMorse('--- ..   -.. .- ...- ..'))
 git clone https://github.com/davimoreiraa/codeWars.git
 
 #Entre no repositório baixado
-cd morse-decoder
+cd codeWars
 ```
 
 <hr>
