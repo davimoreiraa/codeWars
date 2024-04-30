@@ -17,7 +17,7 @@ console.log(decodeMorse('--- ..   -.. .- ...- ..'))
 // OI DAVI
 ```
 
-<hr>
+<br>
 <h2>Tabela código morse</h2>
 <img width='70%' src='morse-chart.jpg'/>
 <hr>
