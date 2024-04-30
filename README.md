@@ -4,7 +4,7 @@
 <h2>Decodificador de código morse</h2>
 <h3>Descrição 📜</h3>
 <p>Código que transforma escritas em morse para texto legível. Foi feito baseado num desafio do <a href='https://www.codewars.com/kata/54b724efac3d5402db00065e'>Codewars</a>.
-<hr>
+<br>
 <h3>Como usar:</h3>
 <p>Para traduzir um texto morse, basta chamar a função decodeMorse() passando seu código em morse como parâmetro. Para fazer um teste, basta imprimir no console o chamado da função.
 <br>
