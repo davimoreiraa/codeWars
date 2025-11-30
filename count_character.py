@@ -1,4 +1,5 @@
 #conta quantas vezes cada letra aparece numa frase
+#proibido o usdo de count()
 frase = input('DIgite uma frase para ver quantas vezes cada letra aparece: ')
 
 caractere_sem_duplicar = []
